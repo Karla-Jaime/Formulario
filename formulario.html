@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Meta tags-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Formulario de pago</title>
+
+    <style>
+        h5{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       
+        <div class="row">
+            <div class="col">
+                <br><br>
+                    <center>
+                        <img src="logo.png" class="img-fluid" alt="Responsive image" height="50" width="50">
+                        <h3>Formulario de pago</h3>
+                        <p>Esto es un ejemplo de formulario de pago</p>
+                    </center>           
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-8">
+                    <h4>Dirección de facturación</h4>
+                    <div class="row">
+                        <div class="col-6">
+                            <h5>Nombre</h5>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-6">
+                            <h5>Apellido</h5>
+                            <input type="text" class="form-control">
+                        </div>                        
+                    </div>
+                    <br>
+                    <h5>Usuario</h5>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1">@</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                     </div>
+
+                   <h5>E-mail</h5><h5 class="text-secondary"> (Opcional)</h5>
+                    <input type="text" class="form-control" placeholder="correo@lasallenoroeste.edu.mx">
+                   <br>
+                    <h5>Dirección de envio</h5>
+                    <input type="text" class="form-control" placeholder="Veracruz S/N">
+                    <br>
+                    <div>
+                        <h5>Dirección 2</h5><h5 class="text-secondary"> (Opcional)</h5>
+                    </div>
+                    
+                    <input type="text" class="form-control" placeholder="Veracruz S/N">
+                    <br>
+                    <div class="row">
+                        <div class="col-5">
+                            <h5>Estado</h5>
+                            <select class="custom-select">
+                                <option selected="">Elegir</option>
+                            </select>
+                        </div>
+                        <div class="col-4">
+                            <h5>País</h5>       
+                            <select class="custom-select">
+                                <option selected="">Elegir</option>
+                            </select>
+                        </div>
+                        <div class="col-3">
+                            <h5>Código Postal</h5>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+
+                    <!---->
+        
+                    <br>
+                    <h4>Pago</h4>
+                <br>
+                <div class="container">
+                    <div class="radio">
+                        <label>
+                          <input type="radio" name="opciones" id="opciones_2" value="opcion_2">
+                          Tarjeta de Credito
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="opciones" id="opciones_2" value="opcion_2">
+                            Tarjeta de Debito
+                          </label>
+                          <br>
+                          <label>
+                            <input type="radio" name="opciones" id="opciones_2" value="opcion_2">
+                            Tarjeta de Paypal
+                          </label>
+                      </div>
+                </div>
+                <br>
+                
+                <div class="row">
+                    <div class="col-6">
+                        <h5>Nombre de la tarjeta</h5>
+                            <input type="text" class="form-control">
+                            <p>Nombre completo aparece en la tarjeta</p>                            
+                            
+                    </div>
+                    <div class="col-6">
+                        <h5>Número de la tarjeta</h5>
+                            <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">   
+                            <h5>Expiración</h5>
+                            <input type="text" class="form-control">
+                        
+                            <h5>CVV</h5>
+                            <input type="text" class="form-control">  
+                                              
+                    </div>
+                    <div class="col-6">
+                    
+                    </div>
+                </div>
+               <br>
+                    <!---->
+                <div class="row">
+                    <button type ="button" class="btn btn-primary btn-block mb-5" width="100">Continuar con el pago</button> 
+                </div>
+
+                </div>
+                
+                
+
+                
+                <div class="col-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10">
+                                <h4>Carrito </h4> 
+                            </div>
+                            <div class="col-2">
+                                <h4><span class="badge badge-secondary">3</span></h4>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="card w-100">
+                                
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">
+                                      <h5 class="pr-5">Mollete</h5><h5 class="pl-5"> $16</h5>  
+                                      <p class="text-secondary">
+                                          Delicioso pan cubierto con frijol y queso derretido.
+                                      </p>
+                                  </li>
+                                  <li class="list-group-item">
+                                      <h5 class="pr-5">Coca de vidrio    </h5><h5 class="pl-5"> $16</h5>  
+                                      <p class="text-secondary">
+                                        Dulce elixir de los dioses contenido en una botella de cristal para conservar al máximo su sabor.
+                                     </p>
+                                     
+                                  </li>
+                                  <li class="list-group-item">
+                                      
+                                      <h5 class="pr-5">Gansito</h5><h5 class="pl-5"> $16</h5>  
+                                      <p class="text-secondary">
+                                        Dulce pastelito relleno de fresa y crema con cubierta de chocolate. <br>
+                                        Recuerdame!
+                                     </p>
+                                     
+                                  </li>                                  
+                                  <li class="list-group-item bg-light">
+                                    
+                                    <h5 class="text-success pr-5">Cupón</h5><h5 class="text-success pl-5"> -$5</h5>                                        
+                                    
+                                    <p class="text-success">COVID-19</p>
+                                   
+                                  </li>                                  
+                                  <li class="list-group-item">
+                                      Total(MXN) <b class="pl-5">$45</b>
+                                  </li>                                
+                                </ul>
+                                                           
+                                
+                              </div>                              
+                            
+                              <div class="card w-100">
+                                <div class="card-body">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Código de cupón">
+                                        <div class="input-group-append">
+                                          <span class="input-group-text bg-secondary text-white" id="basic-addon2" >Ingresar</span>
+                                        </div>
+                                      </div>
+                                </div>
+                              </div>
+                              
+                              
+                              
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+               
+                
+            </div>
+            <!----->
+                
+            
+
+            <!---->
+            <br>
+            <div class="row">
+                <div class="col">
+                    <center>
+                        <p>2020 Universidad La Salle Noroeste</p>
+                    </center>
+                </div>         
+            </div>
+            <div class="row">
+               
+                    <div class="col-3">
+                        
+                    </div>         
+                    <div class="col-6">
+                        <center>
+                            <button class="btn btn-link"> 
+                                Aviso de privacidad
+                            </button>
+                            <button class="btn btn-link"> 
+                                Terminos y condiciones
+                            </button>
+                            <button class="btn btn-link"> 
+                                Contacto
+                            </button>
+                        </center>
+                    </div>    
+                    <div class="col-3">
+                       
+                    </div>   
+            </div>
+
+            </div>
+
+    </div> <!--FINAL CONTENEDOR-->
+
+        
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
